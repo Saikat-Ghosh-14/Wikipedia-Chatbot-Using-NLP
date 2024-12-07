@@ -1,3 +1,6 @@
 nltk
 streamlit
 scikit-learn
+beautifulsoup4
+requests
+numpy
