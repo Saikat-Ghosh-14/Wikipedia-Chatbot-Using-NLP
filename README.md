@@ -27,24 +27,24 @@ WikiBot is an NLP-powered chatbot designed to fetch and interact with Wikipedia 
 ## Installation
 
 ### 1. Clone the Repository
-```bash
+```
 git clone <repository-url>
 cd <repository-directory>
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
-```bash
+```
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
 ### 3. Install Required Packages
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ### 4. Download NLTK Data
-```python
+```
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -55,7 +55,7 @@ nltk.download('wordnet')
 
 ## Usage
 To run the WikiBot application, execute the following command:
-```bash
+```
 streamlit run wikibot.py
 ```
 
@@ -70,6 +70,14 @@ Once the application is running, open the displayed URL (usually `http://localho
 
 ## Content Source
 WikiBot fetches data directly from Wikipedia. All fetched content is publicly available and governed by Wikipedia's terms of use.
+
+---
+
+##Key Technologies
+**Web Scraping**: ```BeautifulSoup``` and ```requests``` for retrieving and parsing Wikipedia content.
+**Natural Language Processing**: NLTK for text preprocessing and tokenization.
+**Machine Learning**: Scikit-learn for TF-IDF vectorization and cosine similarity calculations.
+**Web Framework**: Streamlit for building the interactive interface.
 
 ---
 
