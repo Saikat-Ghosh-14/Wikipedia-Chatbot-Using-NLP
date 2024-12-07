@@ -73,7 +73,7 @@ WikiBot fetches data directly from Wikipedia. All fetched content is publicly av
 
 ---
 
-##Key Technologies
+## Key Technologies
 **Web Scraping**: ```BeautifulSoup``` and ```requests``` for retrieving and parsing Wikipedia content.
 **Natural Language Processing**: NLTK for text preprocessing and tokenization.
 **Machine Learning**: Scikit-learn for TF-IDF vectorization and cosine similarity calculations.
