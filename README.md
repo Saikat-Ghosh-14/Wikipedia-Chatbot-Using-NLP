@@ -92,11 +92,6 @@ Steps to contribute:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgments
 - **Wikipedia** for providing the content source.
 - **NLTK** for natural language processing tools.
